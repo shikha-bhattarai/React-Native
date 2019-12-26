@@ -1,8 +1,17 @@
 import React from 'react';
-import { Text, StyleSheet } from 'react-native';
+import { Text, StyleSheet, View, Button } from 'react-native';
+import { WorldAlignment, setWorldAlignment } from 'expo/build/AR';
 
 const HomeScreen = () => {
-  return <Text style={styles.text}>Hello World</Text>;
+  //Simple button
+  return(
+    <View>
+      <Text style={styles.text}>Hi There</Text>
+      <Button 
+        onPress = {()=> console.log('Button Pressed')}
+        title="Go to Components demo"/>
+  </View>
+  );
 };
 
 const styles = StyleSheet.create({

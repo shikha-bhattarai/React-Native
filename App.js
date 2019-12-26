@@ -12,9 +12,9 @@ const navigator = createStackNavigator(
   },
   {
     //First component that should be displayed
-    initialRouteName: 'List', //same name as line 9 Components
+    initialRouteName: 'Home', //same name as line 9 Components
     defaultNavigationOptions: {
-      title: 'App'
+      title: 'MyReactApp'
     }
   }
 );
